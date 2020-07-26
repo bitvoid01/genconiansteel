@@ -3,7 +3,7 @@
 body {
     overflow-x: hidden;
     font-family: 'Poppins', sans-serif;
-    color: #505952;
+    color: black;
 }
 
 .offset:before {
@@ -19,7 +19,7 @@ body {
     font-weight: 700;
     font-size: 0.9rem;
     letter-spacing: 0.1rem;
-    background:  rgb(44, 43, 43) !important;
+    background:  black !important;
 }
 .navbar-brand {
     height: 2rem;
@@ -136,6 +136,7 @@ h3.heading {
     font-weight: 500;
     text-shadow: none !important;
     font-size: 1.1rem;
+    padding-top: 6px;
 }
 .projects h6 {
     color:#1ebba3;
@@ -152,26 +153,37 @@ h3.heading {
 }
 
 .card-img-top {
-    max-height: 375px;
+    max-height: 400px;
 }
 
+.card-body h4 {
+    color: black;
+    text-shadow: none !important;
+}
 
+.card-body p {
+    color: #1ebba3;
+    text-shadow: none !important;
+}
+
+/* About */
 #about h5 {
-    color: rgb(44, 43, 43);
+    color: black !important;
     text-align: justify;
     text-shadow: none;
     font-size: 1.5rem;
     opacity: 1 !important;
+    font-weight: 500;
 }
 
 #about h3 {
-    color: #1ebba3;
+    color: #1ebba3!important;
     opacity: 1 !important;
 }
 
 /* Footer/Contact */
 footer {
-    background-color: #40474e;
+    background-color: rgb(29, 28, 28);
     color: white;
     padding: 2rem 0 3rem;
 }
@@ -195,7 +207,7 @@ footer svg.svg-inline--fa:hover {
 }
 
 hr.socket {
-    border-top: 0.2rem solid #666b71;
+    border-top: 0.2rem solid black;
     width: 100%;
 }
 
