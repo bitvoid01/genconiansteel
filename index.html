@@ -1,226 +1,313 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Genconian Steel Construction Inc</title>
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
-	<link href="style.css" rel="stylesheet">
-</head>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Genconian Steel Construction Inc</title>
+        <link
+            rel="stylesheet"
+            href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+        <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+        <link href="style.css" rel="stylesheet" />
+    </head>
 
-<body data-spy="scroll" data-target="#navbarResponsive">
+    <body data-spy="scroll" data-target="#navbarResponsive">
+        <!-- Start Home Section -->
+        <div id="home">
+            <!-- Navigation -->
+            <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+                <a class="navbar-brand" href="index.html"
+                    >Genconian Steel Construction Inc</a
+                >
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#navbar-responsive"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbar-responsive">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#projects">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#team">Team</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <!-- End Navigation -->
 
+            <!-- Start Image Slider -->
+            <div
+                id="carouselExampleIndicators"
+                class="carousel slide"
+                data-ride="carousel"
+                data-interval="3000"
+            >
+                <ol class="carousel-indicators">
+                    <li
+                        data-target="#carouselExampleIndicators"
+                        data-slide-to="0"
+                        class="active"
+                    ></li>
+                    <li
+                        data-target="#carouselExampleIndicators"
+                        data-slide-to="1"
+                    ></li>
+                    <li
+                        data-target="#carouselExampleIndicators"
+                        data-slide-to="2"
+                    ></li>
+                    <li
+                        data-target="#carouselExampleIndicators"
+                        data-slide-to="3"
+                    ></li>
+                </ol>
+                <div class="carousel-inner" role="listbox">
+                    <div
+                        class="carousel-item active"
+                        style="background-image: url(img/d.jpg)"
+                    >
+                        <div class="carousel-caption text-center">
+                            <h1>STRUCTURAL STEEL FABRICATION, & ERECTION</h1>
+                            <h5>
+                                Structural steel provides the skeleton for many
+                                construction projects. Advanced Steel
+                                Fabrication can help with the supply,
+                                fabrication, repair, and installation of such
+                                systems.
+                            </h5>
+                        </div>
+                    </div>
+                    <div
+                        class="carousel-item"
+                        style="background-image: url(img/i.jpeg)"
+                    >
+                        <div class="carousel-caption text-center">
+                            <h1>WELDING – FIELD & SHOP</h1>
+                            <h5>
+                                Whether in the shop, or out in the field, our
+                                team can provide any welding service you require
+                                including traditional welds, and stud welding
+                                applications.
+                            </h5>
+                        </div>
+                    </div>
+                    <div
+                        class="carousel-item"
+                        style="background-image: url(img/stairs.jpg)"
+                    >
+                        <div class="carousel-caption text-center">
+                            <h1>MISCELLANEOUS METALS</h1>
+                            <h6>
+                                Steel Stairs
+                            </h6>
+                            <h6>
+                                Roof Access Ladder
+                            </h6>
+                            <h6>
+                                Joist Reinforcement
+                            </h6>
+                            <h6>
+                                Steel Railings
+                            </h6>
+                        </div>
+                    </div>
+                    <div
+                        class="carousel-item"
+                        style="background-image: url(img/spray.jpg)"
+                    >
+                        <div class="carousel-caption text-center">
+                            <h1>Coating</h1>
+                            <h6>
+                                One coat primer
+                            </h6>
+                            <h6>
+                                Galvanize
+                            </h6>
+                            <h6>
+                                Powder Coating
+                            </h6>
+                            <h6>
+                                Sandblasting
+                            </h6>
+                        </div>
+                    </div>
+                </div>
+                <!-- Previous and next button.  -->
+                <a
+                    class="carousel-control-prev"
+                    href="#carouselExampleIndicators"
+                    role="button"
+                    data-slide="prev"
+                >
+                    <span
+                        class="carousel-control-prev-icon"
+                        aria-hidden="true"
+                    ></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a
+                    class="carousel-control-next"
+                    href="#carouselExampleIndicators"
+                    role="button"
+                    data-slide="next"
+                >
+                    <span
+                        class="carousel-control-next-icon"
+                        aria-hidden="true"
+                    ></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+            <!-- End Image Slider -->
+        </div>
+        <!-- End of Home Section -->
 
-<!-- Start Home Section -->
-<div id="home">
+        <!-- About us section -->
+        <div id="about" class="offset">
+            <div class="col-12 narrow text-center">
+                <h3><b>About us</b></h3>
+                <h5>
+                    <b> Genconian Steel </b>, a <b> CWB </b> certified facility
+                    offers one-stop services that include metal fabrication,
+                    welding, assembly, and painting. Since the beginning, we
+                    have firmly believed that quality, competitive pricing,
+                    on-time deliveries, and excellent customer service are all
+                    equally important, and strive to be the best source for
+                    custom steel fabrication for our customers. We specialize in
+                    structural steel, All of our work is performed by
+                    professionally-trained welders, fabricators and each job is
+                    carefully inspected on-site and must pass our strict quality
+                    control procedures before leaving our facility.
+                </h5>
+            </div>
+        </div>
 
-<!-- Navigation -->
-<nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
-	<a class="navbar-brand" href="index.html">Genconian Steel Construction Inc</a>
-	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-responsive">
-		<span class="navbar-toggler-icon"></span>
-	</button>
-	<div class="collapse navbar-collapse" id="navbar-responsive">
-		<ul class="navbar-nav ml-auto">
-			<li class="nav-item">
-				<a class="nav-link" href="#home">Home</a>
-			</li>
-			<li class="nav-item">
-				<a class="nav-link" href="#about">About</a>
-			</li>
-			<li class="nav-item">
-				<a class="nav-link" href="#projects">Projects</a>
-			</li>
-			<li class="nav-item">
-					<a class="nav-link" href="#team">Team</a>
-				</li>
-			<li class="nav-item">
-				<a class="nav-link" href="#contact">Contact</a>
-			</li>
-		</ul>
-	</div>
-</nav>
-<!-- End Navigation -->
+        <!-- End of about us section -->
 
-<!-- Start Image Slider -->
-<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="5000">
-	<ol class="carousel-indicators">
-		<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-		<!-- <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-		<li data-target="#carouselExampleIndicators" data-slide-to="2"></li> -->
-	</ol>
-	<div class="carousel-inner" role="listbox">
-		<div class="carousel-item active" style="background-image: url(img/i.jpeg)">
-			<div class="carousel-caption text-center">
-				<!-- <h1> WELDING – FIELD & SHOP </h1>
-				<h4> 
-					Whether in the shop, or out in the field, 
-					our team can provide any welding service 
-					you require including traditional welds, and stud welding applications.
-				</h4> -->
-				<h1> Website under construction! </h1>
-			</div>
-		</div>
-		<!-- <div class="carousel-item" style="background-image: url(img/d.jpg)">
-			<div class="carousel-caption text-center">
-					<h1> STRUCTURAL STEEL FABRICATION, & ERECTION </h1>
-					<h4> 
-							Structural steel provides the skeleton for many construction projects. 
-							Advanced Steel Fabrication can help with the supply, 
-							fabrication, repair, and installation of such systems.
-					</h4>
-			</div>
-		</div>
-		<div class="carousel-item" style="background-image: url(img/z.jpeg)">
-			<div class="carousel-caption text-center">
-				<h1> METAL FABRICATION (MISCELLANEOUS METALS) </h1>
-				<h4> 
-					Platforms
-				</h4>
-			</div>
-		</div> -->
-	</div>
-	<!-- Previous and next button.  -->
-	<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-		<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-		<span class="sr-only">Previous</span>
-	</a>
-	<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-		<span class="carousel-control-next-icon" aria-hidden="true"></span>
-		<span class="sr-only">Next</span>
-	</a>
-</div>
-<!-- End Image Slider -->
+        <!-- Start Projects Section -->
+        <div id="projects" class="offset">
+            <div class="jumbotron jumbotron-fluid">
+                <div class="col-12 text-center">
+                    <h3 class="heading">Projects</h3>
+                    <div class="heading-underline"></div>
+                </div>
 
-</div>
-<!-- End of Home Section -->
+                <div class="row no-padding">
+                    <div class="col-sm-4">
+                        <div class="projects">
+                            <a href="img/gen-pro-logo.jpg" target="_blank">
+                                <img src="img/gen-pro-logo.jpg" />
+                            </a>
+                        </div>
+                        <h4>Ecole elementaire Pavillon de la Jeunesse</h4>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="projects">
+                            <a href="img/apollo1.png" target="_blank">
+                                <img src="img/apollo1.png" />
+                            </a>
+                        </div>
+                        <h4>Foodland-#6767-Tottenham-Major Renovation</h4>
+                    </div>
+                </div>
+                <!-- End Row-->
+            </div>
+            <!-- End of Jumbotron-->
+        </div>
+        <!-- End of Projects Section -->
 
+        <!-- Start Team Section -->
+        <div id="team" class="offset">
+            <div class="col-12 text-center">
+                <h3 class="heading">Team</h3>
+                <div class="heading-underline"></div>
+            </div>
 
+            <div class="row padding">
+                <div class="col-md-6">
+                    <div class="card text-center">
+                        <img
+                            class="card-img-top"
+                            src="img/woman-holding-disposable-cup-712513.jpg"
+                        />
+                        <div class="card-body">
+                            <h4>Gursewak Pannu</h4>
+                            <p>Project Manager</p>
+                        </div>
+                    </div>
+                </div>
 
-<!-- About us section -->
-<div id="about" class="offset">
-	<div class="col-12 narrow text-center">
-			<h3> About us</h3>
-			<h5>
-				Genconain Steel offers one-stop services that include metal fabrication, welding, assembly, and painting.
-				Since the beginning, we have firmly believed that quality, 
-				competitive pricing, on-time deliveries, and excellent customer service 
-				are all equally important, and strive to be the best source for custom steel fabrication for our customers.
-				We specialize in structural steel, All of our work is performed by 
-				professionally-trained welders, fabricators and each job is carefully 
-				inspected on-site and must pass our strict quality control procedures before leaving our facility.
-			</h5>
-	</div>
-</div>
+                <div class="col-md-6">
+                    <div class="card text-center">
+                        <img
+                            class="card-img-top"
+                            src="img/man-young-happy-smiling-91227.jpg"
+                        />
+                        <div class="card-body">
+                            <h4>Uttambir Singh</h4>
+                            <br/>
+                            <p>President</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End of Team Section -->
 
-<!-- End of about us section -->
+        <!-- Start Contact Section -->
+        <div id="contact" class="offset">
+            <footer>
+                <div class="row justify-content-center">
+                    <div class="col-md-5 text-center">
+                        <img src="img/logo 2 final (1).png" style="width:100px;height:100px;"/>
+                        <br />
+                        <p><h3 style="color: #edf8b1">Contact us:</h3></p>
+                        <strong>Genconian Steel Construction Inc.</strong>
+                        <p>
+                            20-15 Fisherman Dr, Brampton, Ontario L7A 1B7
+                        </p>
+                        <p>
+                            Phone: 289-752-5150
+                            <br />
+                            Fax: 289-752-0903
+                            <br />
+                            Email: info@genconiansteel.ca
+                        </p>
 
+                        <a href="" target="_blank"
+                            ><i class="fab fa-facebook"></i
+                        ></a>
+                        <a href="" target="_blank"
+                            ><i class="fab fa-twitter"></i
+                        ></a>
+                        <a href="" target="_blank"
+                            ><i class="fab fa-instagram"></i
+                        ></a>
+                    </div>
 
-
-<!-- Start Projects Section -->
-<div id="projects" class="offset">
-	<div class="jumbotron jumbotron-fluid">
-
-		<div class="col-12 text-center">
-			<h3 class="heading"> Projects </h3>
-			<div class="heading-underline"></div>
-		</div>
-
-		<div class="row no-padding">
-			<div class="col-sm-4">
-				<div class="projects">
-					<a href="img/e.jpg" target="_blank">
-						<img src="img/e.jpg">
-					</a>
-				</div>
-			</div>
-			<div class="col-sm-4">
-				<div class="projects">
-					<a href="img/f.jpg" target="_blank">
-						<img src="img/f.jpg">
-					</a>
-				</div>
-			</div>
-			<div class="col-sm-4">
-				<div class="projects">
-					<a href="img/g.jpg" target="_blank">
-						<img src="img/g.jpg">
-					</a>
-				</div>
-			</div>
-		</div> <!-- End Row-->
-
-	</div> <!-- End of Jumbotron-->
-</div>
-<!-- End of Projects Section -->
-
-
-	
-<!-- Start Team Section -->
-<div id="team" class="offset">
-	<div class="col-12 text-center">
-			<h3 class="heading">Team</h3>
-			<div class="heading-underline"></div>
-	</div>
-
-	<div class="row padding">
-		<div class="col-md-6">
-			<div class="card text-center">
-				<img class="card-img-top" src="img/woman-holding-disposable-cup-712513.jpg">
-				<div class="card-body">
-					<h4>Gursewak Pannu</h4>
-					<p>I am a smart person, smart person!</p>
-				</div>
-			</div>
-		</div>
-
-		<div class="col-md-6">
-			<div class="card text-center">
-				<img class="card-img-top" src="img/man-young-happy-smiling-91227.jpg">
-				<div class="card-body">
-					<h4>Uttambir Singh</h4>
-					<p>I am a smart person, smart person!</p>
-				</div>
-			</div>
-		</div>
-	</div>
-
-
-</div>
-<!-- End of Team Section -->
-
-
-<!-- Start Contact Section -->
-<div id="contact" class="offset">
-	<footer>
-		<div class="row justify-content-center">
-			<div class="col-md-5 text-center">
-				<img src="img/logo 2 final (1).png">
-				<br/>
-				<strong>Contact Information</strong>
-				<p>
-					888-888-9999
-					<br/>
-					genconiansteel@gmail.com
-				</p>
-
-				<a href="" target="_blank"><i class="fab fa-facebook"></i></a>
-				<a href="" target="_blank"><i class="fab fa-twitter"></i></a>
-				<a href="" target="_blank"><i class="fab fa-instagram"></i></a>
-			</div>
-
-			<hr class="socket">
-			&copy; genconiansteel
-		</div>
-	</footer>
-</div>
-<!-- End of contact Section -->
-
-
-</body>
-
+                    <hr class="socket" />
+                    &copy; genconiansteel
+                </div>
+            </footer>
+        </div>
+        <!-- End of contact Section -->
+    </body>
 </html>
