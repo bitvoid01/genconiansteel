@@ -110,9 +110,9 @@ h3.heading {
     margin: 0 auto 2rem;
 }
 .projects img {
-    max-width: 200px;
-    min-height: 200px;
-    max-height: 200px;
+    max-width: 150px;
+    min-height: 150px;
+    max-height: 150px;
     transition: transform 0.5s ease;
 }
 /* .row.no-padding [class*='col-'] {
@@ -145,6 +145,7 @@ h3.heading {
     /* text-align: center; */
     text-align: justify;
     font-weight: 700;
+    padding-top: 4px;
 }
 
 /* Team section */
