@@ -47,7 +47,7 @@ body {
 
 .carousel-caption {
     position: absolute;
-    top: 65%;
+    top: 45%;
     text-transform: uppercase;
     width: 80%;
     right: 0;
@@ -61,22 +61,25 @@ body {
     text-shadow: 0.1rem 0.1rem 0.8rem black;
     padding-bottom: 1rem;
     color: #1ebba3;
+    font-weight: 900;
 }
 
 .carousel-caption h3,
 h4,
 h5 {
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     text-shadow: 0.1rem 0.1rem 0.5rem black;
     padding-bottom: 1.6rem;
     color: #edf8b1;
+    font-weight: 900;
 }
 
 .carousel-caption h6 {
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     text-shadow: 0.1rem 0.1rem 0.5rem black;
     padding-bottom: 0.6rem;
     color: #edf8b1;
+    font-weight: 900;
 }
 
 .narrow {
@@ -94,6 +97,7 @@ h5 {
     margin-bottom: 0;
 }
 h3.heading {
+    color: #1ebba3;
     font-size: 1.9rem;
     font-weight: 700;
     text-transform: uppercase;
@@ -131,11 +135,18 @@ h3.heading {
     max-height: 375px;
 }
 
+
 #about h5 {
-    color: #505952;
+    color: rgb(44, 43, 43);
     text-align: justify;
     text-shadow: none;
     font-size: 1.5rem;
+    opacity: 1 !important;
+}
+
+#about h3 {
+    color: #1ebba3;
+    opacity: 1 !important;
 }
 
 /* Footer/Contact */
